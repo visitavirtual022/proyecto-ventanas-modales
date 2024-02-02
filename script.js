@@ -28,7 +28,7 @@ for (let i = 0; i < btnsOpenModal.length; i++) {
 //Cerramos la ventana emergente con el botón ESC
 
 document.addEventListener('keydown', function (e) {
-  // console.log(e, e.key);
+  //console.log(e, e.key);
   if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
     closeModal()
   }
